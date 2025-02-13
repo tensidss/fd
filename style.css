@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    background-color:#1f1e24;
+}
+img{
+    opacity: 0.2;
+    margin: 20px;
+    height: 290px;
+    width: 200px;
+}
+img:hover{
+    opacity: 1;
+    transition: 0.1s ease-out;
+    height: 310px;
+    width:220px ;
+}
+header{
+    background-color: #4a4954;
+    color: white;
+}
+p:hover{
+    color:#403f5c;
+}
+.bron{
+    border: 2px solid #9d9ca6;
+    border-radius:20px;
+    color: #777687 ;
+}
+.bron:hover{
+   color:#4a485c;
+    border: 2px solid #403f5c;
+}
+.kontakt{
+    border: 2px solid #9d9ca6;
+    border-radius:20px;
+    color: #777687;
+}
+p a{
+    color: white;
+    text-decoration: none;
+}
+p a:hover{
+    color:gray;
+}
+.kontakt:hover{
+color:#4a485c;
+    border: 2px solid #403f5c;
+}
+p{
+    background-color: solid rgb(44, 41, 41) ;
+}
+h2{
+    color:#706f78;
+}
+h1{
+    color:#97979c;
+}
+a{
+    color: #97979c;
+}
+
+.roboti{
+    text-align: center;
+    justify-content: center;
+
+}
+.inputs{
+    height:20vh;
+    width: 70vh;
+    border: 5px solid white;
+    text-align: center;
+    border-radius: 20px;
+}
+input{
+    background-color:#302538 ;
+    border-radius:20px ;
+    padding: 10px;
+    color:white;
+}
+@media (max-widht:600) {
+    header > nav > div > div > a {
+        margin: 5px 0;
+        width: 100%;
+    }
+    header > nav > div > a > span {
+        display: none;
+}
+}
+footer p{
+    color:#1f1e24;
+}
+
+
